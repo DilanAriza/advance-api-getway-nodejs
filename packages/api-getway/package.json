@@ -1,0 +1,24 @@
+{
+  "name": "api-getway",
+  "version": "1.0.0",
+  "description": "principal controller of api-getway",
+  "main": "src/index.js",
+  "author": "Dilan Ariza <dilansantiagoariza@gmail.com>@",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.3.0",
+    "express-session": "^1.17.2",
+    "http-proxy-middleware": "^2.0.4",
+    "keycloak-connect": "^17.0.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.6.0"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

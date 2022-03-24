@@ -1,0 +1,13 @@
+{
+  "name": "api-getway-nodejs",
+  "version": "0.0.1",
+  "description": "Simple api-getway with nodejs and express http proxy middleware",
+  "main": "index.js",
+  "repository": "git@github.com:DilanAriza/advance-api-getway-nodejs.git",
+  "author": "Dilan Ariza <dilansantiagoariza@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

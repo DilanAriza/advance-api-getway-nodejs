@@ -1,0 +1,23 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "users packages",
+  "main": "src/indexjs",
+  "author": "Dilan Ariza <dilansantiagoariza@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "keycloak-connect": "^17.0.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.6.0"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
